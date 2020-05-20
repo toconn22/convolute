@@ -1,0 +1,322 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# ** Warning: (vsim-144) Detected unknown compiler 'C:/intelFPGA_lite/18.0/modelsim_ase\gcc-4.2.1-mingw32vc12\bin\g++.exe'. Make sure that the CppPath INI file variable or the argument to the -cpppath option if set, is set to a path that exists
+# do final_project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog/audio {G:/Shared drives/logic/final_project/verilog/audio/audio_time.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:11 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog/audio" G:/Shared drives/logic/final_project/verilog/audio/audio_time.v 
+# -- Compiling module audio_time
+# 
+# Top level modules:
+# 	audio_time
+# End time: 19:38:11 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog/audio {G:/Shared drives/logic/final_project/verilog/audio/audio_player.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:11 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog/audio" G:/Shared drives/logic/final_project/verilog/audio/audio_player.v 
+# -- Compiling module audio_player
+# 
+# Top level modules:
+# 	audio_player
+# End time: 19:38:12 on Dec 12,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog/audio {G:/Shared drives/logic/final_project/verilog/audio/audio_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:12 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog/audio" G:/Shared drives/logic/final_project/verilog/audio/audio_counter.v 
+# -- Compiling module audio_counter
+# 
+# Top level modules:
+# 	audio_counter
+# End time: 19:38:12 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:12 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 19:38:12 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:12 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 19:38:13 on Dec 12,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:13 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 19:38:13 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/system.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:13 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/system.v 
+# -- Compiling module system
+# 
+# Top level modules:
+# 	system
+# End time: 19:38:13 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/image_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:13 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/image_rom.v 
+# -- Compiling module rom1
+# -- Compiling module ram1
+# -- Compiling module ram2
+# -- Compiling module rom2
+# -- Compiling module rom3
+# 
+# Top level modules:
+# 	rom1
+# 	ram1
+# 	ram2
+# 	rom2
+# 	rom3
+# End time: 19:38:13 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/ker_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:14 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/ker_rom.v 
+# -- Compiling module ker1
+# -- Compiling module ker2
+# -- Compiling module ker3
+# 
+# Top level modules:
+# 	ker1
+# 	ker2
+# 	ker3
+# End time: 19:38:14 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog/audio {G:/Shared drives/logic/final_project/verilog/audio/musicrom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:14 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog/audio" G:/Shared drives/logic/final_project/verilog/audio/musicrom.v 
+# -- Compiling module music1
+# -- Compiling module music2
+# -- Compiling module music3
+# 
+# Top level modules:
+# 	music1
+# 	music2
+# 	music3
+# End time: 19:38:14 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+G:/Shared\ drives/logic/final_project/verilog {G:/Shared drives/logic/final_project/verilog/system_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:14 on Dec 12,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/Shared drives/logic/final_project/verilog" G:/Shared drives/logic/final_project/verilog/system_tb.v 
+# -- Compiling module system_tb
+# 
+# Top level modules:
+# 	system_tb
+# End time: 19:38:14 on Dec 12,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  system_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" system_tb 
+# Start time: 19:38:15 on Dec 12,2019
+# Loading work.system_tb
+# Loading work.system
+# Loading work.processor
+# Loading work.controller
+# Loading work.datapath
+# Loading work.audio_player
+# Loading work.audio_time
+# Loading work.audio_counter
+# Loading work.music1
+# Loading work.music2
+# Loading work.music3
+# Loading work.rom1
+# Loading work.ram1
+# Loading work.rom2
+# Loading work.rom3
+# Loading work.ker1
+# Loading work.ker2
+# Loading work.ker3
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'vga_x'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (7) does not match connection size (1) for port 'vga_y'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Too few port connections. Expected 39, found 35.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/controller File: G:/Shared drives/logic/final_project/verilog/controller.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'im_final_addr'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'last_apply_square'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_ker'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_im'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Too few port connections. Expected 51, found 50.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/datapath File: G:/Shared drives/logic/final_project/verilog/datapath.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Missing connection for port 'conv_pix'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Too few port connections. Expected 10, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/ram1 File: G:/Shared drives/logic/final_project/verilog/image_rom.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Missing connection for port 'dout_proc'.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: wdennen  Hostname: W-CUSHING76  ProcessID: 467364
+#           Attempting to use alternate WLF file "./wlft941330".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft941330
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "zepplinb.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(123)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom2
+# ** Warning: (vsim-7) Failed to open readmem file "yodab.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(151)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom3
+# ** Note: $stop    : G:/Shared drives/logic/final_project/verilog/system_tb.v(51)
+#    Time: 8782090 ns  Iteration: 0  Instance: /system_tb
+# Break in Module system_tb at G:/Shared drives/logic/final_project/verilog/system_tb.v line 51
+add wave -position end  sim:/system_tb/uut/audio_player/clk
+add wave -position end  sim:/system_tb/uut/audio_player/s_mus
+add wave -position end  sim:/system_tb/uut/audio_player/note
+add wave -position end  sim:/system_tb/uut/audio_player/note1
+add wave -position end  sim:/system_tb/uut/audio_player/note2
+add wave -position end  sim:/system_tb/uut/audio_player/note3
+add wave -position end  sim:/system_tb/uut/audio_player/send_addr
+restart
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'vga_x'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (7) does not match connection size (1) for port 'vga_y'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Too few port connections. Expected 39, found 35.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/controller File: G:/Shared drives/logic/final_project/verilog/controller.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'im_final_addr'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'last_apply_square'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_ker'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_im'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Too few port connections. Expected 51, found 50.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/datapath File: G:/Shared drives/logic/final_project/verilog/datapath.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Missing connection for port 'conv_pix'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Too few port connections. Expected 10, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/ram1 File: G:/Shared drives/logic/final_project/verilog/image_rom.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Missing connection for port 'dout_proc'.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "zepplinb.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(123)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom2
+# ** Warning: (vsim-7) Failed to open readmem file "yodab.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(151)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom3
+restart
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'vga_x'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (7) does not match connection size (1) for port 'vga_y'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Too few port connections. Expected 39, found 35.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/controller File: G:/Shared drives/logic/final_project/verilog/controller.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'im_final_addr'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'last_apply_square'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_ker'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_im'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Too few port connections. Expected 51, found 50.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/datapath File: G:/Shared drives/logic/final_project/verilog/datapath.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Missing connection for port 'conv_pix'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Too few port connections. Expected 10, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/ram1 File: G:/Shared drives/logic/final_project/verilog/image_rom.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Missing connection for port 'dout_proc'.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "zepplinb.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(123)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom2
+# ** Warning: (vsim-7) Failed to open readmem file "yodab.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(151)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom3
+add wave -position end  sim:/system_tb/uut/audio_player/count/clk
+add wave -position end  sim:/system_tb/uut/audio_player/count/t
+add wave -position end  sim:/system_tb/uut/audio_player/count/addr
+add wave -position end  sim:/system_tb/uut/audio_player/timer/t
+add wave -position end  sim:/system_tb/uut/audio_player/timer/count
+restart
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'vga_x'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (7) does not match connection size (1) for port 'vga_y'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Too few port connections. Expected 39, found 35.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/controller File: G:/Shared drives/logic/final_project/verilog/controller.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'im_final_addr'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'last_apply_square'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_ker'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_im'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Too few port connections. Expected 51, found 50.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/datapath File: G:/Shared drives/logic/final_project/verilog/datapath.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Missing connection for port 'conv_pix'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Too few port connections. Expected 10, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/ram1 File: G:/Shared drives/logic/final_project/verilog/image_rom.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Missing connection for port 'dout_proc'.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "zepplinb.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(123)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom2
+# ** Warning: (vsim-7) Failed to open readmem file "yodab.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(151)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom3
+add wave -position end  sim:/system_tb/uut/processor/controller/state
+add wave -position end  sim:/system_tb/uut/processor/controller/nextstate
+add wave -position end  sim:/system_tb/uut/processor/datapath/kernel
+add wave -position end  sim:/system_tb/uut/processor/datapath/nine
+add wave -position end  sim:/system_tb/uut/processor/datapath/pixels
+add wave -position end  sim:/system_tb/uut/processor/datapath/sumr
+add wave -position end  sim:/system_tb/uut/processor/datapath/sumg
+add wave -position end  sim:/system_tb/uut/processor/datapath/sumb
+add wave -position end  sim:/system_tb/uut/processor/datapath/sumnine
+add wave -position end  sim:/system_tb/uut/processor/datapath/pix_x_addr
+add wave -position end  sim:/system_tb/uut/processor/datapath/pix_y_addr
+add wave -position end  sim:/system_tb/uut/processor/datapath/nine_x_addr
+add wave -position end  sim:/system_tb/uut/processor/datapath/nine_y_addr
+restart
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'vga_x'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3015) G:/Shared drives/logic/final_project/verilog/system_tb.v(13): [PCDPC] - Port size (7) does not match connection size (1) for port 'vga_y'. The port definition is at: G:/Shared drives/logic/final_project/verilog/system.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut File: G:/Shared drives/logic/final_project/verilog/system.v
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Too few port connections. Expected 39, found 35.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/controller File: G:/Shared drives/logic/final_project/verilog/controller.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'im_final_addr'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'last_apply_square'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_ker'.
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(58): [TFMPC] - Missing connection for port 'en_im'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Too few port connections. Expected 51, found 50.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/processor/datapath File: G:/Shared drives/logic/final_project/verilog/datapath.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/processor.v(96): [TFMPC] - Missing connection for port 'conv_pix'.
+# ** Warning: (vsim-3017) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Too few port connections. Expected 10, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/ram1 File: G:/Shared drives/logic/final_project/verilog/image_rom.v
+# ** Warning: (vsim-3722) G:/Shared drives/logic/final_project/verilog/system.v(138): [TFMPC] - Missing connection for port 'dout_proc'.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "zepplinb.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(123)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom2
+# ** Warning: (vsim-7) Failed to open readmem file "yodab.mem" in read mode.
+# No such file or directory. (errno = ENOENT)    : G:/Shared drives/logic/final_project/verilog/image_rom.v(151)
+#    Time: 0 ps  Iteration: 0  Instance: /system_tb/uut/rom3
+# End time: 21:27:10 on Dec 12,2019, Elapsed time: 1:48:55
+# Errors: 0, Warnings: 67

@@ -1,0 +1,428 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Shared drives/logic/final_project/simulation/modelsim
+vaudio_counter
+Z1 !s110 1576197492
+!i10b 1
+!s100 MN:PDZ[e^NXG=]AEWbMGA3
+ISZ47@XRGnfDOdTjeo<i4R0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573199063
+8G:/Shared drives/logic/final_project/verilog/audio/audio_counter.v
+FG:/Shared drives/logic/final_project/verilog/audio/audio_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1576197492.000000
+!s107 G:/Shared drives/logic/final_project/verilog/audio/audio_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog/audio|G:/Shared drives/logic/final_project/verilog/audio/audio_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/Shared drives/logic/final_project/verilog/audio}
+Z7 tCvgOpt 0
+vaudio_player
+R1
+!i10b 1
+!s100 J?M?OdXQcb_VIjlPOnjQ^2
+I6CzKVbo:HNmoKN=EcnQz;0
+R2
+R0
+w1576197439
+8G:/Shared drives/logic/final_project/verilog/audio/audio_player.v
+FG:/Shared drives/logic/final_project/verilog/audio/audio_player.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1576197491.000000
+!s107 G:/Shared drives/logic/final_project/verilog/audio/audio_player.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog/audio|G:/Shared drives/logic/final_project/verilog/audio/audio_player.v|
+!i113 1
+R5
+R6
+R7
+vaudio_time
+!s110 1576197491
+!i10b 1
+!s100 P7B_38]@8gk5kSVU2dWVc1
+IW3oihHDE_hm8fa=QU7Izz3
+R2
+R0
+w1573202904
+8G:/Shared drives/logic/final_project/verilog/audio/audio_time.v
+FG:/Shared drives/logic/final_project/verilog/audio/audio_time.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 G:/Shared drives/logic/final_project/verilog/audio/audio_time.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog/audio|G:/Shared drives/logic/final_project/verilog/audio/audio_time.v|
+!i113 1
+R5
+R6
+R7
+vcontroller
+R1
+!i10b 1
+!s100 :nN@SiB1DYfhjGJH1IeU40
+IQ1cUZ4YgeR^?U;>5WU@E43
+R2
+R0
+w1576135225
+8G:/Shared drives/logic/final_project/verilog/controller.v
+FG:/Shared drives/logic/final_project/verilog/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Shared drives/logic/final_project/verilog/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/controller.v|
+!i113 1
+R5
+Z9 !s92 -vlog01compat -work work {+incdir+G:/Shared drives/logic/final_project/verilog}
+R7
+vdatapath
+Z10 !s110 1576197493
+!i10b 1
+!s100 H]YSm0cA=Km1]Q>J^;TfK1
+ICJGV<XiWchz[>[EDBU?N22
+R2
+R0
+w1576196313
+8G:/Shared drives/logic/final_project/verilog/datapath.v
+FG:/Shared drives/logic/final_project/verilog/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Shared drives/logic/final_project/verilog/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/datapath.v|
+!i113 1
+R5
+R9
+R7
+vker1
+Z11 !s110 1576197494
+!i10b 1
+!s100 6KG23g7XYGTL]z2cXb2612
+IX_QBb8O^aOC2DcMd:z8P03
+R2
+R0
+Z12 w1576193906
+Z13 8G:/Shared drives/logic/final_project/verilog/ker_rom.v
+Z14 FG:/Shared drives/logic/final_project/verilog/ker_rom.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z15 !s108 1576197494.000000
+Z16 !s107 G:/Shared drives/logic/final_project/verilog/ker_rom.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/ker_rom.v|
+!i113 1
+R5
+R9
+R7
+vker2
+R11
+!i10b 1
+!s100 TJeMRiiMCJA`?7K;oejOL2
+I=5zUAHUTKiA5JNnD0ob133
+R2
+R0
+R12
+R13
+R14
+L0 27
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R5
+R9
+R7
+vker3
+R11
+!i10b 1
+!s100 UbKDAA^EJT3g0FJKj88R81
+IiTZQYYLV3gdHi2^iC:QX83
+R2
+R0
+R12
+R13
+R14
+L0 53
+R3
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R5
+R9
+R7
+vmusic1
+R11
+!i10b 1
+!s100 UcMS41[DlGCeiOA9a=T4:2
+ILJNEb5]I_3O9FZ:e1Hd8b2
+R2
+R0
+Z18 w1576195610
+Z19 8G:/Shared drives/logic/final_project/verilog/audio/musicrom.v
+Z20 FG:/Shared drives/logic/final_project/verilog/audio/musicrom.v
+L0 1
+R3
+r1
+!s85 0
+31
+R15
+Z21 !s107 G:/Shared drives/logic/final_project/verilog/audio/musicrom.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog/audio|G:/Shared drives/logic/final_project/verilog/audio/musicrom.v|
+!i113 1
+R5
+R6
+R7
+vmusic2
+R11
+!i10b 1
+!s100 oW@dbBWz9`6YOLao<P4QA1
+ID`??A:U6oV?2<^9A=;QB80
+R2
+R0
+R18
+R19
+R20
+L0 49
+R3
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R5
+R6
+R7
+vmusic3
+R11
+!i10b 1
+!s100 cc23F4eH^GEBSDL81Oml]1
+I>M@Kie_66AgBoELg<jk>91
+R2
+R0
+R18
+R19
+R20
+L0 97
+R3
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R5
+R6
+R7
+vprocessor
+R10
+!i10b 1
+!s100 S0Sdg4Um`S4BBTSZ@BLI`3
+Ij9DMkT7BZ]@JjhVYLWP]73
+R2
+R0
+w1576195607
+8G:/Shared drives/logic/final_project/verilog/processor.v
+FG:/Shared drives/logic/final_project/verilog/processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z23 !s108 1576197493.000000
+!s107 G:/Shared drives/logic/final_project/verilog/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/processor.v|
+!i113 1
+R5
+R9
+R7
+vram1
+R10
+!i10b 1
+!s100 ^cbeWKJCO_^IUAB6^ST`I2
+IMVMj>=a<oJfke5<^<UJaH0
+R2
+R0
+Z24 w1576192805
+Z25 8G:/Shared drives/logic/final_project/verilog/image_rom.v
+Z26 FG:/Shared drives/logic/final_project/verilog/image_rom.v
+L0 29
+R3
+r1
+!s85 0
+31
+R23
+Z27 !s107 G:/Shared drives/logic/final_project/verilog/image_rom.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/image_rom.v|
+!i113 1
+R5
+R9
+R7
+vram2
+R10
+!i10b 1
+!s100 L7Hk:XPZ]m_Jo3mc7JfW^1
+I0ccI]RFI?EY@=QM<FdDbS3
+R2
+R0
+R24
+R25
+R26
+L0 66
+R3
+r1
+!s85 0
+31
+R23
+R27
+R28
+!i113 1
+R5
+R9
+R7
+vrom1
+R10
+!i10b 1
+!s100 2c9<nN_I9Q5>mTXf^BHD[3
+Ii8ejMb]f08I4FFbj;zgV83
+R2
+R0
+R24
+R25
+R26
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+R27
+R28
+!i113 1
+R5
+R9
+R7
+vrom2
+R10
+!i10b 1
+!s100 zneEi[oSP@h@ND<d`aB`P3
+I;GoV9eHU0Hl=1e7dK6<E43
+R2
+R0
+R24
+R25
+R26
+L0 105
+R3
+r1
+!s85 0
+31
+R23
+R27
+R28
+!i113 1
+R5
+R9
+R7
+vrom3
+R10
+!i10b 1
+!s100 0:ohiJe=dZXFlZ[HHU7g20
+ISHQiT:3S=D2c[R8jZ4^PZ0
+R2
+R0
+R24
+R25
+R26
+L0 133
+R3
+r1
+!s85 0
+31
+R23
+R27
+R28
+!i113 1
+R5
+R9
+R7
+vsystem
+R10
+!i10b 1
+!s100 S`KJYk`S:^@;DzDE82A2f2
+Ihn=_B`3z:nIMIf3;d@oJ_2
+R2
+R0
+w1576195908
+8G:/Shared drives/logic/final_project/verilog/system.v
+FG:/Shared drives/logic/final_project/verilog/system.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 G:/Shared drives/logic/final_project/verilog/system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/system.v|
+!i113 1
+R5
+R9
+R7
+vsystem_tb
+R11
+!i10b 1
+!s100 ;XeER93?2N^jWi=YmWSUG3
+IHUXZOOEg`zY0<f3TW35Y=1
+R2
+R0
+w1576196755
+8G:/Shared drives/logic/final_project/verilog/system_tb.v
+FG:/Shared drives/logic/final_project/verilog/system_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R15
+!s107 G:/Shared drives/logic/final_project/verilog/system_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Shared drives/logic/final_project/verilog|G:/Shared drives/logic/final_project/verilog/system_tb.v|
+!i113 1
+R5
+R9
+R7
